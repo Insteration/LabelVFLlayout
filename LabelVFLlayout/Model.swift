@@ -16,7 +16,7 @@ class MyLabel: UILabel {
         tintColor = UIColor(red: .random(in: 0...1), green: .random(in: 0...1), blue: .random(in: 0...1), alpha: 1)
         textColor = UIColor(red: .random(in: 0...1), green: .random(in: 0...1), blue: .random(in: 0...1), alpha: 1)
         textAlignment = .center
-        
+        translatesAutoresizingMaskIntoConstraints = false
         text = {
             var text = String()
             let count = Int.random(in: 3...8)
